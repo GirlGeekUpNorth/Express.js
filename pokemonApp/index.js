@@ -3,7 +3,7 @@ console.log('linked?');
 // function to fetch all pokemon from our API
 async function fetchPokemonData() {
   // fetch pokemon from api and store in variable
-  const response = await fetch('http://localhost:3000/pokemon');
+  const response = await fetch('http://localhost:8080/pokemon');
 
   // Convert the response to JSON
   const pokemonData = await response.json();
